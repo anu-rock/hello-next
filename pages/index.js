@@ -17,6 +17,16 @@ const Index = () => (
                 <PostLink key={post.id} id={post.id} title={post.title} />
             ))}
         </ul>
+
+        <style jsx>{`
+            h1 {
+                font-family: 'Arial';
+            }
+
+            ul {
+                padding: 0;
+            }
+      `}</style>
     </Layout>
 );
 
